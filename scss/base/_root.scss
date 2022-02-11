@@ -10,6 +10,7 @@
   --clr-light-dark-blue: #747b95;
   --clr-very-dark-blue: #25293a;
   --clr-red: #f05b5b;
+  --clr-white: #ffffff;
 
   --fs-h1: 2.5rem;
   --lh-h1: 3rem;
@@ -27,7 +28,30 @@
   --fs-text-2: 1rem;
   --lh-text-2: 1.75rem;
 
+  --wrapper-margin: 3rem 1.5rem 6rem;
+  --main-top: 5rem;
+
+  --hero-img-width: 12.6875rem;
+  --hero-img-height: 15rem;
+  --hero-gap: 2.5rem;
+
+  --wrapper-max-width: 23.4375rem;
+
+  --pattern-header-width: 30.3125rem 30.3125rem;
+  --patter-header-position: top -11.25rem center;
+
   @media (min-width: 48em) {
+    --wrapper-margin: 4.5rem 2.5rem 6rem;
+    --main-top: 6rem;
+
+    --hero-img-width: 17.5625rem;
+    --hero-img-height: 19.625rem;
+    --hero-gap: 5rem;
+
+    --wrapper-max-width: 48rem;
+
+    --pattern-header-width: 41.625rem 41.625rem;
+    --patter-header-position: top -12.5rem right -17.5rem;
   }
 
   @media (min-width: 90em) {
@@ -36,5 +60,16 @@
 
     --fs-text-1: 1.125rem;
     --lh-text-1: 1.75rem;
+
+    --wrapper-margin: 5.0625rem 10.3125rem 5.6875rem;
+
+    --hero-img-width: 29.6875rem;
+    --hero-img-height: 33.1875rem;
+    --hero-gap: 6rem;
+
+    --wrapper-max-width: 90rem;
+
+    --pattern-header-width: 70.875rem 70.875rem;
+    --patter-header-position: top -25rem right -23.75rem;
   }
 }
