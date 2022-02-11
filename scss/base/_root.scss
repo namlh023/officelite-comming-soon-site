@@ -1,0 +1,40 @@
+:root {
+  --ff-primary: "Kumbh Sans", sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --clr-blue: #5175ff;
+  --clr-light-blue: #829cff;
+  --clr-dark-blue: #333950;
+  --clr-light-dark-blue: #747b95;
+  --clr-very-dark-blue: #25293a;
+  --clr-red: #f05b5b;
+
+  --fs-h1: 2.5rem;
+  --lh-h1: 3rem;
+
+  --fs-h2: 1.25rem;
+  --lh-h2: 1.75rem;
+
+  --fs-h3: 1rem;
+  --lh-h3: 3rem;
+  --ls-h3: 0.3125rem;
+
+  --fs-text-1: 1rem;
+  --lh-text-1: 1.625rem;
+
+  --fs-text-2: 1rem;
+  --lh-text-2: 1.75rem;
+
+  @media (min-width: 48em) {
+  }
+
+  @media (min-width: 90em) {
+    --fs-h1: 3.5rem;
+    --lh-h1: 4rem;
+
+    --fs-text-1: 1.125rem;
+    --lh-text-1: 1.75rem;
+  }
+}
