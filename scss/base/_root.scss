@@ -11,9 +11,13 @@
   --clr-very-dark-blue: #25293a;
   --clr-red: #f05b5b;
   --clr-white: #ffffff;
+  --clr-bg-blue: rgba(81, 117, 255, 0.15);
 
   --fs-h1: 2.5rem;
   --lh-h1: 3rem;
+
+  --fs-h1-big: 3.5rem;
+  --lh-h1-big: 4.5rem;
 
   --fs-h2: 1.25rem;
   --lh-h2: 1.75rem;
@@ -28,30 +32,58 @@
   --fs-text-2: 1rem;
   --lh-text-2: 1.75rem;
 
+  --fs-timer: 2rem;
+  --lh-timer: 3rem;
+
+  --fs-timer-small: 0.75rem;
+  --lh-timer-small: 1.75rem;
+
   --wrapper-margin: 3rem 1.5rem 6rem;
+  --wrapper-pseudo: 70rem;
   --main-top: 5rem;
 
   --hero-img-width: 12.6875rem;
   --hero-img-height: 15rem;
   --hero-gap: 2.5rem;
 
-  --wrapper-max-width: 23.4375rem;
+  // --wrapper-max-width: 23.4375rem;
 
   --pattern-header-width: 30.3125rem 30.3125rem;
-  --patter-header-position: top -11.25rem center;
+  --pattern-header-position: top -11.25rem center;
+
+  --pattern-pricing-position: top -23.75rem center;
+
+  --pattern-footer-position: top -20rem center;
+
+  --package-padding: 2.5rem 3rem;
+  --pricing-margin: 6.25rem;
+  --pricing-gap: 2rem;
+
+  --timer-padding: 0.625rem 1rem;
 
   @media (min-width: 48em) {
+    --fs-timer: 3.5rem;
+    --lh-timer: 3rem;
+
+    --fs-timer-small: 1rem;
+
     --wrapper-margin: 4.5rem 2.5rem 6rem;
+    --wrapper-pseudo: 60rem;
     --main-top: 6rem;
 
     --hero-img-width: 17.5625rem;
     --hero-img-height: 19.625rem;
     --hero-gap: 5rem;
 
-    --wrapper-max-width: 48rem;
+    --timer-padding: 1.5rem 2rem;
+
+    // --wrapper-max-width: 48rem;
 
     --pattern-header-width: 41.625rem 41.625rem;
-    --patter-header-position: top -12.5rem right -17.5rem;
+    --pattern-header-position: top -12.5rem right -17.5rem;
+    --pattern-pricing-position: left -20rem center;
+
+    --pricing-gap: 1.5rem;
   }
 
   @media (min-width: 90em) {
@@ -62,6 +94,7 @@
     --lh-text-1: 1.75rem;
 
     --wrapper-margin: 5.0625rem 10.3125rem 5.6875rem;
+    --wrapper-pseudo: 50rem;
 
     --hero-img-width: 29.6875rem;
     --hero-img-height: 33.1875rem;
@@ -70,6 +103,7 @@
     --wrapper-max-width: 90rem;
 
     --pattern-header-width: 70.875rem 70.875rem;
-    --patter-header-position: top -25rem right -23.75rem;
+    --pattern-header-position: top -25rem right -23.75rem;
+    --pattern-footer-position: left -45rem center;
   }
 }
