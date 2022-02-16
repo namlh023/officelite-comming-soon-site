@@ -1,36 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <title>Frontend Mentor | Officelite coming soon site</title>
-</head>
-<body>
-  Work smarter. Save time.
+  </head>
+  <body>
+    <div class="wrapper wrapper-signup">
+      <header class="header">
+        <img src="./assets/shared/logo.svg" alt="Officelite website" />
+      </header>
+      <main class="main">
+        <section class="hero hero-signup">
+          <div class="hero__content hero__signup">
+            <h1 class="h1-like h1-dark hero__h1">Work smarter. Save time.</h1>
+            <p class="p-like p-light-dark hero__p">
+              Easily manage your projects. Get on the list and receive in-app
+              perks available only to early subscribers. We are moving into
+              final development and getting ready for offcial launch soon.
+            </p>
+          </div>
+        </section>
+        <section class="countdown">
+          <div>
+            <h3 class="h3-like h3-dark h3-uppercase">
+              Comming <span class="js-count-day">4 NOV 2020</span>
+            </h3>
+            <ul class="timer">
+              <li class="timer-item timer-item-light">
+                <p class="p-timer p-light js-day">47</p>
+                <p class="p-timer-small p-light-dark timer__p">days</p>
+              </li>
+              <li class="timer-item timer-item-light">
+                <p class="p-timer p-light js-hour">07</p>
+                <p class="p-timer-small p-light-dark timer__p">hours</p>
+              </li>
+              <li class="timer-item timer-item-light">
+                <p class="p-timer p-light js-min">56</p>
+                <p class="p-timer-small p-light-dark timer__p">min</p>
+              </li>
+              <li class="timer-item timer-item-light">
+                <p class="p-timer p-light js-sec">14</p>
+                <p class="p-timer-small p-light-dark timer__p">sec</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="form-list">
+          <form class="signup-form" id="signup-form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              aria-label="name"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              aria-label="email address"
+              placeholder="Email address"
+            />
 
-  Easily manage your projects. Get on the list and receive in-app perks available only to 
-  early subscribers. We are moving into final development and getting ready for official launch soon.
-
-  <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-  Coming 4 Nov 2020
-
-  <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-  47 Days
-  07 Hours
-  56 Min
-  14 Sec
-
-  Name
-  Email Address
-  Basic Pack Free
-  Basic Pack Free
-  Pro Pack $9.99
-  Ultimate Pack $19.99
-  Phone Number
-  Company
-  Get on the list
-</body>
+            <select
+              id="package"
+              class="package"
+              name="'package-list"
+              form="signup-form"
+            >
+              <option class="package__item" value="Basic">
+                Basic Pack <span>Free</span>
+              </option>
+              <option class="package__item" value="Basic">
+                Pro Pack <span>$9.99</span>
+              </option>
+              <option class="package__item" value="Basic">
+                Unimate Pack <span>$19.99</span>
+              </option>
+            </select>
+            <input
+              type="text"
+              name="phonenumber"
+              id="phonenumber"
+              aria-label="phonenumber"
+              placeholder="Phone Number"
+            />
+            <input
+              type="text"
+              name="company"
+              id="company"
+              aria-label="company"
+              placeholder="Company"
+            />
+            <button type="submit" class="btn btn-blue btn-signup">
+              Get on the list
+            </button>
+          </form>
+        </section>
+      </main>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
 </html>

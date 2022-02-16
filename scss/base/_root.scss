@@ -12,6 +12,9 @@
   --clr-red: #f05b5b;
   --clr-white: #ffffff;
   --clr-bg-blue: rgba(81, 117, 255, 0.15);
+  --clr-bg-blue-2: rgba(81, 117, 255, 0.1);
+  --clr-border-blue: rgba(116, 123, 149, 0.5);
+  --clr-bg-body: #f2f2f2;
 
   --fs-h1: 2.5rem;
   --lh-h1: 3rem;
@@ -62,6 +65,8 @@
   --timer-width: 10rem;
   --timer-height: 6rem;
   --timer-border: 0.25rem;
+
+  // --signup-countdown-margin: 4rem 0;
 
   @media (min-width: 48em) {
     --fs-timer: 3.5rem;
