@@ -13,6 +13,13 @@
 
     <link rel="stylesheet" href="./css/main.css" />
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"
+      integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
     <title>Frontend Mentor | Officelite coming soon site</title>
   </head>
   <body>
@@ -88,23 +95,23 @@
         <section class="countdown">
           <div>
             <h3 class="h3-like h3-light h3-uppercase">
-              Comming <span>4 NOV 2020</span>
+              Comming <span class="js-count-day">4 NOV 2020</span>
             </h3>
             <ul class="timer">
               <li>
-                <p class="p-timer p-light">47</p>
+                <p class="p-timer p-light js-day">47</p>
                 <p class="p-timer-small p-light timer__p">days</p>
               </li>
               <li>
-                <p class="p-timer p-light">07</p>
+                <p class="p-timer p-light js-hour">07</p>
                 <p class="p-timer-small p-light timer__p">hours</p>
               </li>
               <li>
-                <p class="p-timer p-light">56</p>
+                <p class="p-timer p-light js-min">56</p>
                 <p class="p-timer-small p-light timer__p">min</p>
               </li>
               <li>
-                <p class="p-timer p-light">14</p>
+                <p class="p-timer p-light js-sec">14</p>
                 <p class="p-timer-small p-light timer__p">sec</p>
               </li>
             </ul>
@@ -114,10 +121,6 @@
         </section>
       </main>
     </div>
-    <!-- If you're choosing to make this date dynamic, set it to 30 days in the future from the moment the visitor views the page -->
-    <!-- Coming 4 Nov 2020 -->
-
-    <!-- If you're choosing to make this timer dynamic, have it countdown from the date you set above -->
-    <!-- 47 Days 07 Hours 56 Min 14 Sec Get Started -->
+    <script src="./js/index.js"></script>
   </body>
 </html>

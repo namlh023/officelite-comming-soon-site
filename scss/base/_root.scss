@@ -59,7 +59,9 @@
   --pricing-margin: 6.25rem;
   --pricing-gap: 2rem;
 
-  --timer-padding: 0.625rem 1rem;
+  --timer-width: 10rem;
+  --timer-height: 6rem;
+  --timer-border: 0.25rem;
 
   @media (min-width: 48em) {
     --fs-timer: 3.5rem;
@@ -75,8 +77,6 @@
     --hero-img-height: 19.625rem;
     --hero-gap: 5rem;
 
-    --timer-padding: 1.5rem 2rem;
-
     // --wrapper-max-width: 48rem;
 
     --pattern-header-width: 41.625rem 41.625rem;
@@ -84,6 +84,10 @@
     --pattern-pricing-position: left -20rem center;
 
     --pricing-gap: 1.5rem;
+
+    --timer-width: 8rem;
+    --timer-height: 10rem;
+    --timer-border: 1rem;
   }
 
   @media (min-width: 90em) {
@@ -105,5 +109,8 @@
     --pattern-header-width: 70.875rem 70.875rem;
     --pattern-header-position: top -25rem right -23.75rem;
     --pattern-footer-position: left -45rem center;
+
+    --timer-width: 7rem;
+    --timer-height: 8rem;
   }
 }

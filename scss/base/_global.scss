@@ -255,9 +255,16 @@ COMPONENT
   margin-bottom: 2.5rem;
 
   li {
+    width: var(--timer-width);
+    height: var(--timer-height);
+
     background-color: var(--clr-dark-blue);
-    padding: var(--timer-padding);
-    border-radius: 0.25rem;
+    border-radius: var(--timer-border);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   &__p {
     opacity: 0.5;
